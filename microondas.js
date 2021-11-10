@@ -8,7 +8,7 @@
 
 
 function prepararComida (prato,segundos){
-    let comidaPronta = ""
+    let comidaPronta = "Prato inexistente"
     
     if (prato == 1 && segundos >= 10 && segundos <= 19){
         comidaPronta = "Pipoca pronta, bom apetite!!!"
